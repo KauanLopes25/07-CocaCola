@@ -1,5 +1,5 @@
 # 07-CocaCola
-![](./Preview/Captura%20de%20Tela%202025-03-10%20às%2010.22.18.png)
+![](./Preview/Captura%20de%20Tela%202025-03-10%20às%2010.30.47.png)
 
 Primeiro website criado, do tipo landing page, para treino no desenvolvimento de sites.
 O site foi desenvolvido utilizando boas práticas, como por exemplo tags semânticas e responsividade.
