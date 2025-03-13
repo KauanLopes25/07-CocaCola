@@ -1,0 +1,81 @@
+1 - O que é um repositório no Git e qual a sua importância?
+
+R: Um repositorio no git é um local de armazenamento semelhante a uma pasta porem com o diferencial de linha do tempo. A importancia do repositório é 
+fornecer um local para armazenamento de arquivo fornecendo uma linha do tempo de cada consolidação.
+
+2 - Qual a função do Git Bash?
+
+R: A função do Git Bash é realizar o salvamento de cada marco que o usuário realiza em um arquivo.
+
+3 - O que faz o comando git add e qual a diferença entre git add <arquivo> e git add .?
+
+R: O comando git add . marca todos os arquivos modificados na repositório local para serem consolidados.
+    A diferença entre o git add <arquivo> e git add . , está no conteudo que será marcado para ser modificado,
+onde o git add . marca todos os arquivos, o git add <arquivo> marca apenas um arquivo específico.
+
+4 - Por que utilizamos o ponto (.) no comando git add .?
+
+R: Utilizamos o ponto (.) no comando git add . porque queremos informar para o git onde estamos, não navegar para nenhum outro repositório.
+
+5 - Explique o comando git commit e por que é importante criar uma mensagem descritiva.
+
+R: O comando git commit é utilizado para consolidar todos os arquivos marcados como modificador presentes no repositório local.
+    A importância da mensagem descritiva é indicar o porque da consolidação estar sendo realizada, qual foi exatamente a modificação.
+
+6 - Qual a função do comando git push?
+
+R: A função do comando git push está em executar a transferência dos arquivos consolidados do repositório local para o remoto.
+
+7 - Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
+
+R: A importância de criar commits frequentes durante o desenvolvimento de um projeto está em registrar cada
+pequena alteração realizada durante o desenvolvimento do projeto, para criar uma linha do tempo e poder retornar algum arquivo funcional em caso de desfuncionalidade do sistema.
+
+8 - Explique a função das tags HTML e como elas estruturam uma página.
+
+R: A função das tags HTML está em deixar o código mais coerente para que outro programador entenda de forma simples.
+    O padrão facilita a leitura do código por diversos programadores.
+    A extruturção é sempre realizada com conteudos herdados de pai para filho, geralmente utilizando os filhos header, main e footer, inclusos no seu pai body.
+
+9 - O que são atributos em uma tag HTML e qual a sua função?*
+
+R: Atributos em uma tag HTML são suas características.
+    Possuem a função de classificar tags 
+
+10 - O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?*
+
+R:  Emmet é um plugin utilizado em editores de código.
+    Ele facilita a escrita porque acelera o que o programador vai digitar com uma simples abreviação do que ele deseja
+
+11 - O que é o box-sizing no CSS e por que usamos ele no reset inicial?
+
+R: 
+
+12 - Por que é importante utilizar tags semânticas no HTML?
+
+R: Para facilitar a leitura do código, dando significado para o seu conteudo, assim o programador consegue ter uma ideia do conteudo de cada tag.
+
+13 - O que são media queries no CSS e qual a sua função?
+
+R: São regras para alterar padrões do site, como tornalo responsivo.
+
+14 - Qual a função do GitHub Pages?
+
+R: A função do GitHub pages é deixar o site do repositório remoto hospedado e no ar.
+
+15 - O que é o Flexbox no CSS e para que ele é utilizado?
+
+R: Modelo de layout no css, utilizado para tornar objetos mais responsivos,
+facilitando o posicionamento de container com responsividade.
+
+16 - Qual a diferença entre justify-content e align-items em um container Flexbox?
+
+R: Justify-content alinha um container no eixo principal(Horizontal) e o align-items alinha na vertical
+
+17 - Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
+
+R: O flex-grow determina o quando um filho pode se expandir dentro de um container, utilizado para fazer um item se expandir dentro de um container.
+
+18 - Explique a diferença entre flex-direction: column; e flex-direction: row;.?
+
+R: flex-direction determina a direção que o container deverá seguir como eixo principal, column sendo em coluna e row alinhando em linha.
