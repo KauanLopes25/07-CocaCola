@@ -6,20 +6,21 @@
 body {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    /* grid-template-rows: 100px 1fr 50px; */
     background: rgb(37,0,79);
     background: linear-gradient(0deg, rgba(37,0,79,1) 20%, rgba(100,9,202,1) 74%, rgba(37,0,78,1) 93%);
 }
 
 header {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    color: #FFFFFF;
-    padding-left: 75px;
-    justify-content: flex-start;
+    height: 100px; /*Origem flex*/
+    display: grid; /*Alteração do comportamento dos container*/
+    grid-template-columns: 50px 1fr 3000px; /**/
+    align-items: center; /*Origem flex*/
+    gap: 24px; /*Distancia entre os objetos*/
+    color: #FFFFFF; /*Cor dos objetos*/
+    padding-left: 75px; /*Margem da esquerda*/
+    
 }
 
 header span {
@@ -27,9 +28,10 @@ header span {
 }
 main {
     flex-grow: 1;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
+    gap: 24px;
 }
 .background-logo {
     position: absolute;
