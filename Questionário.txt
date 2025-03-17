@@ -49,7 +49,8 @@ R:  Emmet é um plugin utilizado em editores de código.
 
 11 - O que é o box-sizing no CSS e por que usamos ele no reset inicial?
 
-R: 
+R: Define o tamanho total de um elemento, utilizamos para evitar problemas no momento de criação de um novo site.
+    A criar uma caixa com 100px e adicionar uma borda de 12 px, com o box-sizing ativado a borda sera utilizada internamente na caixa, agora com o box-sizing desativado a caixa de 100 px ira somar mais 12px da borda, ficando com 112px.
 
 12 - Por que é importante utilizar tags semânticas no HTML?
 
